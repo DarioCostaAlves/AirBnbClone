@@ -8,7 +8,14 @@ export default function App() {
         <div>
             <Navbar />
             <Hero />
-            <Card />
+            <Card 
+            img="mountain.png"
+            rating="3.0"
+            reviewCount={369}
+            country="Portugal"
+            title="Btt track"
+            price={16}
+            />
         </div>
     )
 }
