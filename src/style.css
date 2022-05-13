@@ -24,10 +24,11 @@ section {
 .hero {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .hero--pics{
-    max-width: 400px;
+    max-width: 550px;
     align-self: center;
 }
 
@@ -64,9 +65,10 @@ section {
 
 .card--title {
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis;    
 }
-
+h1{font-size: 40px;}
+p{font-size: 20px;}
 .card--stats {
     display: flex;
     align-items: center;
